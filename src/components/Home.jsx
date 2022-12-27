@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiOutlineShoppingCart } from 'react-icons/ai';
+import { MdOutlinePayment } from 'react-icons/md';
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
         </div>
         
          <div class="box">
+             <MdOutlinePayment/>
             <h3>easy payments</h3>
             <p>Lorem ipsum dolor sit amet,nostrum nisi maxime obcaecati.</p>
             <a href="#" class="mbtn">read more</a>

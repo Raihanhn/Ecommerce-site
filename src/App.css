@@ -14,17 +14,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.container {
-  max-width: 90%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 1rem;
-}
-
-article h1 {
-  margin: 1rem 0;
-}
-
 /* -------------------------------------NAVBAR CSS START----------------------------- */
 
 .navigation {
@@ -131,3 +120,86 @@ article h1 {
   }
 
 /* -------------------------------------NAVBAR CSS END----------------------------- */
+
+/* -------------------------------------Home CSS START----------------------------- */
+section{
+  padding: 2rem 9%;
+}
+
+.heading{
+  text-align: center;
+  padding: 0.5rem 0;
+  padding-bottom: 3rem;
+  font-size: 2.5rem;
+  color: var(--bgcolor);
+}
+
+.heading span{
+  background: var(--bgcolor);
+  color: #fff;
+  display: inline-block;
+  padding: .5rem 3rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./assets/img/p1.png) no-repeat ;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.home .content{
+  text-align: center;
+  width: 40rem;
+}
+
+.home .content h3{
+  color: rgb(21, 230, 230);
+  font-size: 2.7rem;
+}
+
+.home .content h3 span{
+  color: rgb(0, 255, 98);
+  
+}
+
+.home .content p{
+  color: rgb(160, 207, 31);
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  line-height: 1.2;
+}
+
+.mybtn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .4rem 1rem;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  border: .2rem solid rgb(173, 12, 12);
+  color: rgb(30, 212, 100);
+  cursor: pointer;
+  background: none;
+  color: rgb(190, 84, 22);
+  text-decoration: none;
+}
+
+.mybtn:hover{
+  background: #FF5349;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* -------------------------------------HOME CSS END----------------------------- */

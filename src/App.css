@@ -4,6 +4,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 body {
@@ -195,7 +199,75 @@ section{
 }
 
 
+.heading{
+  text-align: center;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+  font-size: 3.5rem;
+  color: var(--black);
+}
 
+.heading span{
+  background: orangered;
+  color: #fff;
+  display: inline-block;
+  padding: .5rem 3rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+
+.features .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap:1rem;
+}
+
+.features .box-container .box{
+  padding: 2rem 1rem;
+  background: #fff;
+  outline: var(--outline);
+  outline-offset: -1rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+
+.features .box-container .box:hover{
+  
+  outline: black;
+  outline-offset: 0rem;
+}
+
+
+.features .box-container .box h3{
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+  color: var(--black);
+}
+
+.features .box-container .box p{
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+}
+
+.mbtn{
+  display: inline-block;
+  padding: .2rem .5rem;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  border: .2rem solid rgb(173, 12, 12);
+  color: rgb(30, 212, 100);
+  cursor: pointer;
+  background: none;
+  color: rgb(190, 84, 22);
+  text-decoration: none;
+}
+
+.mbtn:hover{
+  background: #FF5349;
+  color: #fff;
+}
 
 
 

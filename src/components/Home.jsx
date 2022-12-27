@@ -10,6 +10,41 @@ const Home = () => {
       <a href="#" className='mybtn'>Read more</a>
       </div>
     </section>
+
+    <section className="features" id="features">
+    <h1 className="heading">brief <span>about</span> us</h1>
+    <div className="box-container">
+        <div className="box">
+            
+            <h3>amazing unique products</h3>
+            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime obcaecati.</p>
+            <a href="#" class="mbtn">read more</a>
+        </div>
+        
+         <div class="box">
+            
+            <h3>free & fast delivery</h3>
+            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime obcaecati.</p>
+            <a href="#" class="mbtn">read more</a>
+        </div>
+        
+         <div class="box">
+            <h3>easy payments</h3>
+            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime obcaecati.</p>
+            <a href="#" class="mbtn">read more</a>
+        </div>
+
+        <div class="box">
+            <h3>worldwide service</h3>
+            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime obcaecati.</p>
+            <a href="#" class="mbtn">read more</a>
+        </div>
+        
+    </div>
+    
+</section>
+
+
     </div>
   )
 }

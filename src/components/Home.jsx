@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
     <h1 className="heading">brief <span>about</span> us</h1>
     <div className="box-container">
         <div className="box">
-            
+             <AiOutlineShoppingCart/>
             <h3>amazing unique products</h3>
             <p>Lorem ipsum dolor sit amet,nostrum nisi maxime obcaecati.</p>
             <a href="#" class="mbtn">read more</a>

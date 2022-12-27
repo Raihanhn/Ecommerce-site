@@ -33,6 +33,12 @@ const Navbar = () => {
             <a href="/about">About</a>
           </li>
           <li>
+            <a href="/product">Product</a>
+          </li>
+          <li>
+            <a href="/service">Service</a>
+          </li>
+          <li>
             <a href="/contact">Contact</a>
           </li>
         </ul>

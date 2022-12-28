@@ -1,6 +1,8 @@
 import React from 'react'
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { MdOutlinePayment } from 'react-icons/md';
+import { TbTruckDelivery } from 'react-icons/tb';
+import { CiGlobe } from 'react-icons/ci';
 
 const Home = () => {
   return (
@@ -13,33 +15,34 @@ const Home = () => {
       </div>
     </section>
 
-    <section className="features" id="features">
+    <section className="about" id="about">
     <h1 className="heading">brief <span>about</span> us</h1>
     <div className="box-container">
         <div className="box">
-             <AiOutlineShoppingCart/>
+             <AiOutlineShoppingCart className='iconic' />
             <h3>amazing unique products</h3>
-            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime obcaecati.</p>
+            <p>Lorem ipsum dolor sit amet,nostrum placeholder text commonly nisi maxime obcaecati.</p>
             <a href="#" class="mbtn">read more</a>
         </div>
         
          <div class="box">
-            
-            <h3>free & fast delivery</h3>
-            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime obcaecati.</p>
+             <TbTruckDelivery className='iconic' />
+            <h3>fast & free delivery</h3>
+            <p>Lorem ipsum dolor sit amet,nostrum placeholder text commonly nisi maxime obcaecati.</p>
             <a href="#" class="mbtn">read more</a>
         </div>
         
          <div class="box">
-             <MdOutlinePayment/>
+             <MdOutlinePayment className='iconic' />
             <h3>easy payments</h3>
-            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime obcaecati.</p>
+            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime placeholder text commonly obcaecati.</p>
             <a href="#" class="mbtn">read more</a>
         </div>
 
         <div class="box">
+              <CiGlobe className='iconic' />
             <h3>worldwide service</h3>
-            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime obcaecati.</p>
+            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime placeholder text commonly obcaecati.</p>
             <a href="#" class="mbtn">read more</a>
         </div>
         

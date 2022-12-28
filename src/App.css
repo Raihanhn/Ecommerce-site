@@ -182,7 +182,7 @@ section{
 .mybtn{
   margin-top: 1rem;
   display: inline-block;
-  padding: .4rem 1rem;
+  padding: .3rem .5rem;
   font-size: 1.5rem;
   border-radius: .5rem;
   border: .2rem solid rgb(173, 12, 12);
@@ -204,7 +204,7 @@ section{
   padding: 2rem 0;
   padding-bottom: 3rem;
   font-size: 3.5rem;
-  color: var(--black);
+  color: #f1880f;
 }
 
 .heading span{
@@ -212,17 +212,18 @@ section{
   color: #fff;
   display: inline-block;
   padding: .5rem 3rem;
-  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+  /* clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%); */
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
 
 
-.features .box-container{
+.about .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap:1rem;
 }
 
-.features .box-container .box{
+.about .box-container .box{
   padding: 2rem 1rem;
   background: #fff;
   outline: var(--outline);
@@ -231,20 +232,20 @@ section{
   box-shadow: var(--box-shadow);
 }
 
-.features .box-container .box:hover{
+.about .box-container .box:hover{
   
   outline: black;
   outline-offset: 0rem;
 }
 
 
-.features .box-container .box h3{
+.about .box-container .box h3{
   font-size: 1.5rem;
   line-height: 1.4rem;
   color: var(--black);
 }
 
-.features .box-container .box p{
+.about .box-container .box p{
   font-size: 1.2rem;
   line-height: 1.8rem;
   color: var(--light-color);
@@ -267,6 +268,11 @@ section{
 .mbtn:hover{
   background: #FF5349;
   color: #fff;
+}
+
+.iconic{
+  font-size: 3rem;
+  color: #f1534d;
 }
 
 

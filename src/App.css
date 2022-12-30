@@ -11,6 +11,7 @@
 }
 
 :root{
+  --orange:#ff7800;
   --dx-color: red;
   --bgcolor: #8a1538;
   --black:#130f40;
@@ -356,8 +357,61 @@ html{
   color: #fff;
 }
 
-
-
-
-
 /* -------------------------------------PRODUCT CSS END----------------------------- */
+
+
+
+
+
+/* -------------------------------------REVIEW CSS START----------------------------- */
+
+.review .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap:1.5rem;
+}
+
+.review .box-container .box{
+  padding: 3rem 2rem;
+  background: #fff;
+  outline: var(--outline);
+  outline-offset: -1rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+
+.review .box:hover{
+  outline: var(--outline-hover);
+  outline-offset: 0rem;
+  
+}   
+
+.review .box img{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  
+}
+
+.review .box p{
+  padding: 1rem 0;
+  line-height: 1.8rem;
+  color: var(--light-color);
+  font-size: 1.5rem;
+}
+
+.review .box h3{
+  padding-bottom: .5rem;
+  color: var(--black);
+  font-size: 2.2rem;
+}
+
+.review .box .stars{
+  color: var(--orange);
+  font-size: 1.7rem;
+}
+
+
+
+
+/* -------------------------------------REVIEW CSS END----------------------------- */

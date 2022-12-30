@@ -18,7 +18,7 @@ const Product = () => {
                     <>
                         <div className="box" key={id}>
                           <img src={image} alt="" />
-                         <h3> {title} </h3>
+                          <h3> {title} </h3>
                           <p>{desc}</p>
                           <a href="#" className='mybtns'> {bttn} </a>
                         </div>

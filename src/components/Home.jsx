@@ -3,6 +3,8 @@ import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { MdOutlinePayment } from 'react-icons/md';
 import { TbTruckDelivery } from 'react-icons/tb';
 import { CiGlobe } from 'react-icons/ci';
+import { MdOutlineLocalOffer } from 'react-icons/md';
+import { RiCustomerService2Line } from 'react-icons/ri';
 
 const Home = () => {
   return (
@@ -42,6 +44,20 @@ const Home = () => {
         <div class="box">
               <CiGlobe className='iconic' />
             <h3>worldwide service</h3>
+            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime placeholder text commonly obcaecati.</p>
+            <a href="#" class="mbtn">read more</a>
+        </div>
+
+        <div class="box">
+              <MdOutlineLocalOffer className='iconic' />
+            <h3>special offer</h3>
+            <p>Lorem ipsum dolor sit amet,nostrum nisi maxime placeholder text commonly obcaecati.</p>
+            <a href="#" class="mbtn">read more</a>
+        </div>
+
+        <div class="box">
+              <RiCustomerService2Line className='iconic' />
+            <h3>trusted service provider</h3>
             <p>Lorem ipsum dolor sit amet,nostrum nisi maxime placeholder text commonly obcaecati.</p>
             <a href="#" class="mbtn">read more</a>
         </div>

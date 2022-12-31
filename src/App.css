@@ -462,9 +462,81 @@ form{
   cursor: pointer;
 }
 
-
-
-
-
-
 /* -------------------------------------CONTACT CSS END----------------------------- */
+
+
+
+
+
+/* -------------------------------FOOTER START----------------------------------- */
+
+.footer{
+  background: #344150;
+  margin-top: 530px;
+}
+
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap:1.5rem; 
+}
+
+.footer .box-container .box h3{
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .links{
+  display: block;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box p{
+  line-height: 1.8;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .links {
+  color: #fff;
+  padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover{
+  padding-right: 2rem;
+}
+
+
+.footer .box-container .box .share a{
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  border-radius: .5rem;
+  font-size: 3.5rem;
+  color: #fff;
+  margin-left: .4rem;
+  background: #344150;
+  text-align: center;
+}
+
+.footer .box-container .box .share a:hover{
+  color: #fff;
+}
+
+.footer .box-container .box .email{
+  width: 100%;
+  margin: .7rem 0;
+  padding: 1rem;
+  border-radius: .5rem;
+  background: #fff;
+  font-size: 1.6rem;
+  color: var(--bgcolor);
+  text-transform: none;
+}
+
+
+/* -------------------------------FOOTER END----------------------------------- */
